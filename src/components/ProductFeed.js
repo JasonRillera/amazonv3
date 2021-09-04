@@ -19,7 +19,7 @@ function ProductFeed({ products }) {
             ))}
 
         <img
-            className="md:col-span-full ml-4"
+            className="md:col-span-full ml-4 transform hover:scale-105 transition duration-500 rounded-lg cursor-pointer"
             src="https://links.papareact.com/dyz"
             alt=""
         />
