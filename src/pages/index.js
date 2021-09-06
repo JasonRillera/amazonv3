@@ -8,7 +8,7 @@ export default function Home({ products }) {
   return (
     <div className="bg-gray-100">
       <Head>
-      <link rel="shortcut icon" href="amazonicon.png" />
+        <link rel="shortcut icon" href="amazonicon.png" />
         <title>Amazon.com</title>
       </Head>
 
