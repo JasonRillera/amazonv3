@@ -36,6 +36,31 @@ function CheckoutProduct({
         dispatch(removeFromBasket({ id }));
     };
 
+    // let options = []
+    // for (let i = 1; i<Math.max(id.quantity + 1, 20); i++){
+    //     options.push(<option value={i}> Qty: {i}</option>)
+    // }
+    
+    // const changeQuantity = (newQuantity) => {
+    //     db.collection('cartItems').doc(id).update({
+    //         quantity: parceInt[newQuantity]
+    //     })
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     return (
         <div className="grid grid-cols-5">
             <Image src={image} height={200} width={200} objectFit="contain" />
@@ -67,6 +92,16 @@ function CheckoutProduct({
 
             {/* Right add/remove buttons */}
             <div className="flex flex-col space-y-2 my-auto justify-self-end">
+                {/* <select 
+                    value={id.quantity}
+                    onChange={(e)=>changeQuantity(e.target.value)}
+                >
+                    {options}
+                </select> */}
+                
+                
+                
+                
                 <button className="button" onClick={addItemToBasket}>
                     Add to Basket
                 </button>
